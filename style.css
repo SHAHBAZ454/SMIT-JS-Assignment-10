@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  form {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 10px;
+    border: 2px solid #000;
+    box-shadow: 0 0 10px #333, 0 0 20px #333;
+  }
+  
+  input {
+    width: 290px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #333;
+    padding: 0 2%;
+    font-size: 1em;
+    font-weight: 600;
+  }
+  
+  .submit,
+  .show {
+    width: 150px;
+    height: 35px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    background:rgb(141, 141, 167);
+  }
+  
+  .display {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 1%;
+    gap: 10px;
+  }
+  
+  .left {
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  
+  .right {
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  
+  main:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    gap: 50px;
+  }
+  
+  p {
+    font-size: 1.5em;
+  }
+  
+  
+  
+  table button {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  tr {
+    gap: 2px;
+    position: relative;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 2%;
+  }
+  
+  td,
+  th {
+    border: 1px solid #000;
+    width: 70px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
